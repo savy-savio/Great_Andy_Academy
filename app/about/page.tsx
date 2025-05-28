@@ -509,6 +509,183 @@ export default function AboutPage() {
         </div>
       </section>
 
+      {/* Support Section */}
+      <section className="py-16 bg-gradient-to-b from-white to-muted/30" id="support">
+        <div className="container px-4 md:px-6">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+            <div className="space-y-2">
+              <div className="inline-block rounded-lg bg-primary/10 px-3 py-1 text-sm text-primary">Get Help</div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Support & Assistance</h2>
+              <div className="w-24 h-1 bg-primary mx-auto my-6"></div>
+              <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                We're here to help you every step of the way. Reach out to us through any of these channels.
+              </p>
+            </div>
+          </div>
+
+          <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3 max-w-6xl mx-auto">
+            {/* Academic Support */}
+            <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300 border border-primary/10">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
+                    <BookOpen className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-navy-blue">Academic Support</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Get help with academic matters, curriculum questions, and student progress.
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-primary mr-2"></div>
+                    <span>Student counseling</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-primary mr-2"></div>
+                    <span>Academic guidance</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-primary mr-2"></div>
+                    <span>Progress reports</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Admissions Support */}
+            <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300 border border-primary/10">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
+                    <Users className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-navy-blue">Admissions Support</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Need help with the admission process, requirements, or application status?
+                </p>
+                <div className="space-y-2">
+                  <div className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-primary mr-2"></div>
+                    <span>Application assistance</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-primary mr-2"></div>
+                    <span>Requirements clarification</span>
+                  </div>
+                  <div className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-primary mr-2"></div>
+                    <span>School tours</span>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            {/* Financial Support */}
+            <Card className="bg-white shadow-lg hover:shadow-xl transition-all duration-300 border border-primary/10">
+              <CardContent className="p-6">
+                <div className="flex items-center mb-4">
+                  <div className="h-12 w-12 rounded-full bg-primary/10 flex items-center justify-center mr-4">
+                    <Shield className="h-6 w-6 text-primary" />
+                  </div>
+                  <h3 className="text-xl font-bold text-navy-blue">Financial Support</h3>
+                </div>
+                <p className="text-muted-foreground mb-4">
+                  Questions about fees, payment plans, or financial assistance?
+                </p>
+                <div className="space-y-3">
+                  <div className="bg-primary/5 p-3 rounded-lg">
+                    <p className="text-sm font-medium text-navy-blue">Afeima Microfinance Bank</p>
+                    <p className="text-sm text-muted-foreground">Account: 1100358843</p>
+                  </div>
+                  <div className="bg-primary/5 p-3 rounded-lg">
+                    <p className="text-sm font-medium text-navy-blue">Ecobank</p>
+                    <p className="text-sm text-muted-foreground">Account: 4601053705</p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </div>
+
+          {/* Contact Methods */}
+          <div className="mt-16 bg-white rounded-xl shadow-lg p-8 border border-primary/10 max-w-4xl mx-auto">
+            <h3 className="text-2xl font-bold text-center mb-8 text-navy-blue">Contact Our Support Team</h3>
+
+            <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <div className="text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-3">
+                  <svg className="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold text-navy-blue mb-1">Phone Support</h4>
+                <p className="text-sm text-muted-foreground">Call us directly</p>
+                <Button variant="outline" size="sm" className="mt-2">
+                  Call Now
+                </Button>
+              </div>
+
+              <div className="text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-3">
+                  <svg className="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold text-navy-blue mb-1">Email Support</h4>
+                <p className="text-sm text-muted-foreground">Send us an email</p>
+                <Button variant="outline" size="sm" className="mt-2">
+                  Send Email
+                </Button>
+              </div>
+
+              <div className="text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-3">
+                  <svg className="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893A11.821 11.821 0 0020.893 3.488" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold text-navy-blue mb-1">WhatsApp</h4>
+                <p className="text-sm text-muted-foreground">Chat with us</p>
+                <Button variant="outline" size="sm" className="mt-2">
+                  Chat Now
+                </Button>
+              </div>
+
+              <div className="text-center p-4 rounded-lg bg-primary/5 hover:bg-primary/10 transition-colors">
+                <div className="h-12 w-12 rounded-full bg-primary/20 flex items-center justify-center mx-auto mb-3">
+                  <svg className="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                  </svg>
+                </div>
+                <h4 className="font-semibold text-navy-blue mb-1">Visit Us</h4>
+                <p className="text-sm text-muted-foreground">Come to our campus</p>
+                <Button variant="outline" size="sm" className="mt-2">
+                  Get Directions
+                </Button>
+              </div>
+            </div>
+
+            <div className="mt-8 p-6 bg-primary/5 rounded-lg border border-primary/20">
+              <h4 className="font-bold text-navy-blue mb-2 text-center">Support Hours</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+                <div className="text-center">
+                  <p className="font-medium">Monday - Friday</p>
+                  <p className="text-muted-foreground">8:00 AM - 5:00 PM</p>
+                </div>
+                <div className="text-center">
+                  <p className="font-medium">Saturday</p>
+                  <p className="text-muted-foreground">9:00 AM - 2:00 PM</p>
+                </div>
+              </div>
+              <p className="text-center text-xs text-muted-foreground mt-4">
+                For urgent matters outside business hours, please use WhatsApp or email
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section className="py-16 bg-primary text-white">
         <div className="container px-4 md:px-6 text-center">
