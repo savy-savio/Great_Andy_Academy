@@ -303,7 +303,7 @@ export default function Home() {
               <p className="text-sm">Year Founded</p>
             </div>
             <div className="space-y-2">
-              <CountUpNumber end={500} suffix="+" duration={2000} className="text-4xl font-bold text-gold-yellow" />
+              <CountUpNumber end={100} suffix="+" duration={2000} className="text-4xl font-bold text-gold-yellow" />
               <p className="text-sm">Students</p>
             </div>
             <div className="space-y-2">
