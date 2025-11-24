@@ -70,6 +70,31 @@ export default function StudentLifePage() {
 
   const galleryImages = [
     {
+      src: "/andy1.jpg",
+      alt: "",
+      caption: "",
+    },
+    {
+      src: "/andy2.jpg",
+      alt: "",
+      caption: "",
+    },
+    {
+      src: "/andy3.jpg",
+      alt: "",
+      caption: "",
+    },
+    {
+      src: "/andy4.jpg",
+      alt: "",
+      caption: "",
+    },
+    {
+      src: "/andy5.jpg",
+      alt: "",
+      caption: "",
+    },
+    {
       src: "/student_doctors.jpeg",
       alt: "",
       caption: "",
